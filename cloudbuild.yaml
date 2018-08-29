@@ -2,8 +2,8 @@ steps:
 - name: "gcr.io/cloud-builders/gcloud"
   id: "deploy-to-app-engine"
   args:
-    - '-c'
-    - |
-    - cd /workspace/app
-      gcloud app deploy
+  - '-c'
+  - |
+    cd /workspace/app
+    gcloud app deploy
 timeout: "1600s"
