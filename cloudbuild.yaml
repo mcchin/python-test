@@ -1,4 +1,4 @@
 steps:
-- name: "gcr.io/cloud-builders/gcloud"
+- name: "us.gcr.io/mcchin-playground/appengine"
   args: ["app", "deploy"]
 timeout: "1600s"
