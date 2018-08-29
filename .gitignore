@@ -1,0 +1,17 @@
+*~
+*.pyc
+*.swp
+*#
+__pycache__
+.metadata
+.DS_Store
+*.log
+venv
+.idea/
+.tmp/
+.cache/
+.eggs/
+*.csv
+.pytest_cache/
+*.env
+.coverage
